@@ -166,7 +166,7 @@ footer {
     border-radius: 25px 25px 0 0;
 }
 
-footer>div {
+.ContainerLogo-Redes {
     display: flex;
     align-items: center;
     justify-content: center;
