@@ -166,8 +166,38 @@ footer {
     border-radius: 25px 25px 0 0;
 }
 
+footer>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
 footer>div>img {
-    width: 200px;
+    width: 170px;
+}
+
+.RedesSociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.RedesSociales>a>img {
+    width: 38px;
+    height: 38px;
+    transition: all .5s ease-in-out;
+}
+
+.RedesSociales>a>img[alt='Instagram'] {
+    width: 35px;
+    height: 35px;
+}
+
+.RedesSociales>a>img:hover {
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
 }
 
 footer>h5>a {
